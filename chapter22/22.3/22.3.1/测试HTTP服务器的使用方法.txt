@@ -1,0 +1,11 @@
+用于测试的HTTP服务器代码位于 DemoHttpServer 目录下，代码文件为 httpsv.go
+
+1、编译服务器代码，执行 go build -o <可执行文件> httpsv.go
+2、运行测试服务器程序，执行 <可执行文件>
+
+例如：
+	go build -o mysv httpsv.go
+	mysv
+
+测试服务器使用本机地址 localhost，端口为HTTP默认端口（一般为80）。
+	访问URL：http://localhost
